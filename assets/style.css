@@ -1,15 +1,57 @@
+
+:root {
+--black: #000000ff;
+--rich-black-fogra-29: #00020bff;
+--rich-black-fogra-29-2: #000315ff;
+--xiketic: #000420ff;
+--oxford-blue: #00052aff;
+--oxford-blue-2: #000735ff;
+--royal-blue-dark: #00083fff;
+--midnight-blue: #000949ff;
+--midnight-blue-2: #000a53ff;
+--lightning-1: rgb(6, 195, 253);
+--lightnight-2:  rgb(118, 216, 255);
+}
 * {
-    width: auto;
+    background-color: transparent;
+}
+html {
+    background: 
+    linear-gradient(217deg, var(--black), var(--lightning-1) 70.71%),
+    linear-gradient(127deg, var(--midnight-blue), var(--oxford-blue) 70.71%),
+    linear-gradient(336deg, var(--rich-black-fogra-29), var(--lightnight-2) 70.71%);
+    
+}
+#whitetext {
+    color: white;
+}
+body {
+    background-color: transparent;
+}
+.jumbotron {
+    background-color: transparent;
 }
 img {
     max-height: 60vh;
 }
+h1 {
+   padding-left: 50vw;
+   background-color: transparent;
+    
+}
 .container {
     margin: 0px;
     padding: 0px;
+    /* background-color: var(--lightning-1); */
+    
+    
 }
 .carousel{
     position: static;
+}
+#titlebox {
+    margin: 0;
+    
 }
 #contact {
     margin-left: 30vh;
