@@ -1,6 +1,12 @@
+img {
+    max-height: 60vh;
+}
 .container {
     margin: 0px;
     padding: 0px;
+}
+.carousel{
+    position: static;
 }
 #contact {
     margin-left: 30vh;
@@ -16,4 +22,10 @@
 #projectHeadimg2 {
     max-height: 50vh;
     max-width: 50vh;
+}
+#skinnyBlurb {
+    margin-bottom: 5vh;
+}
+#carouselExampleSlidesOnly {
+    max-height: 60vh;
 }
