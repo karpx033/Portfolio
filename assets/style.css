@@ -25,6 +25,9 @@ html {
 #whitetext {
     color: white;
 }
+#boldify {
+    font-weight: bolder;
+}
 body {
     background-color: transparent;
 }
