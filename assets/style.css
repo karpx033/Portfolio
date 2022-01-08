@@ -1,0 +1,19 @@
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+#contact {
+    margin-left: 30vh;
+}
+#headimg {
+    min-width:100%;
+    max-height: 30vh;
+}
+#projectHeadimg {
+    max-height: 50vh;
+    max-width: 50vh;
+}
+#projectHeadimg2 {
+    max-height: 50vh;
+    max-width: 50vh;
+}
