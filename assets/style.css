@@ -20,6 +20,8 @@ html {
     linear-gradient(217deg, var(--black), var(--lightning-1) 70.71%),
     linear-gradient(127deg, var(--midnight-blue), var(--oxford-blue) 70.71%),
     linear-gradient(336deg, var(--rich-black-fogra-29), var(--lightnight-2) 70.71%);
+    /* background-repeat: no-repeat; */
+    background-size: 100vw 100vh;
     
 }
 #whitetext {
@@ -76,4 +78,13 @@ h1 {
 }
 #carouselExampleSlidesOnly {
     max-height: 60vh;
+}
+
+.media {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    /* background: 
+    linear-gradient(217deg, var(--black), var(--lightning-1) 70.71%),
+    linear-gradient(127deg, var(--midnight-blue), var(--oxford-blue) 70.71%),
+    linear-gradient(336deg, var(--rich-black-fogra-29), var(--lightnight-2) 70.71%); */
 }
