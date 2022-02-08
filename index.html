@@ -1,201 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-    <link rel="stylesheet" href="./assets/reset.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+  <link rel="stylesheet" href="./assets/reset.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="https://github.com/karpx033" target="_blank">Louis Karp</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="https://github.com/karpx033" target="_blank">GitHub <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/louis-karp-7bb23a86/" target="_blank">LinkedIn</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./assets/Louis Karp - Resume.pdf" target="_blank" download="Louis Karp-Resume">Resume</a>
-            </li>
-          </ul>
-          <span class="navbar-text" id="contact">
-            612.500.2948
-          </span>
-          <span class="navbar-text" id="contact">
-            Karpx033@umn.edu
-          </span>
-        </div>
-      </nav>
-      <div class="jumbotron m-0 p-0 jumbotron-fluid">
-        <div>
-          <img id="headimg" alt="Coding Snippets Collage" src="https://wallpaperaccess.com/full/4742397.png">
-        </div>
-      </div>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container-fluid" id= "titlebox">
-          <h1 id="whitetext"class="display-4">Latest Projects</h1>
-        </div>
-      </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://github.com/karpx033" target="_blank">Louis Karp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://github.com/karpx033" target="_blank">GitHub <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/louis-karp-7bb23a86/" target="_blank">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./assets/Louis Karp - Resume.pdf" target="_blank"
+            download="Louis Karp-Resume">Resume</a>
+        </li>
+      </ul>
+      <span class="navbar-text" id="contact">
+        612.500.2948
+      </span>
+      <span class="navbar-text" id="contact">
+        Karpx033@umn.edu
+      </span>
+    </div>
+  </nav>
+  <div class="jumbotron m-0 p-0 jumbotron-fluid">
+    <div>
+      <img id="headimg" alt="Coding Snippets Collage" src="https://wallpaperaccess.com/full/4742397.png">
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container-fluid" id="titlebox">
+      <h1 id="whitetext" class="display-4">Latest Projects</h1>
+    </div>
+  </div>
 
-      <div class="media">
+  <div class="media">
+    <div class="media-body">
+      <h3 class="mt-0">Employee Scheduler</h3>
+      My second group project. The purpose off the application is to display current and historical covid data for the
+      area around a searched event. The app will display a sorted list with clickable links to the event in a table
+      adjacent to a table that displays the covid data. Primary languages include CSS and jquery. Uses API calls to
+      generate data and saves them in local storage. Framework built from Bulma.
+
+      <div class="media mt-3">
+        <a class="mr-3" href="#">
+
+        </a>
         <div class="media-body">
-          <h3 class="mt-0">Employee Scheduler</h3>
-          My second group project. The purpose off the application is to display current and historical covid data for the area around a searched event. The app will display a sorted list with clickable links to the event in a table adjacent to a table that displays the covid data. Primary languages include CSS and jquery. Uses API calls to generate data and saves them in local storage. Framework built from Bulma.
-      
-          <div class="media mt-3">
-            <a class="mr-3" href="#">
-              
-            </a>
-            <div class="media-body">
-              <h5 class="mt-0">Links:</h5>
-              <a id="whitetext"href="https://shrouded-anchorage-20681.herokuapp.com/">Deployed application</a>
-              <br>
-              <a id="whitetext"href="https://github.com/karpx033/Employee-Tracker">GitHub repository</a>
-              
-            </div>
-            <img src="./assets/EmployeeScheduling1.jpg" id="projectHeadimg" class="mr-3" alt="Employee Scheduler Homepage">
-          </div>
+          <h5 class="mt-0">Links:</h5>
+          <a id="whitetext" href="https://shrouded-anchorage-20681.herokuapp.com/">Deployed application</a>
+          <br>
+          <a id="whitetext" href="https://github.com/karpx033/Employee-Tracker">GitHub repository</a>
+
         </div>
-        <img src="./assets/EmployeeScheduling2.jpg" id="projectHeadimg" class="mr-3" alt="Employee Scheduler Results Page">
+        <img src="./assets/EmployeeScheduling1.jpg" id="projectHeadimg" class="mr-3" alt="Employee Scheduler Homepage">
       </div>
+    </div>
+    <img src="./assets/EmployeeScheduling2.jpg" id="projectHeadimg" class="mr-3" alt="Employee Scheduler Results Page">
+  </div>
 
 
-      <div class="media">
-        <img src="./assets/EmployeeTrackerScreenshot.jpg" id="projectHeadimg2" class="mr-3" alt="...">
+  <div class="media">
+    <img src="./assets/EmployeeTrackerScreenshot.jpg" id="projectHeadimg2" class="mr-3" alt="...">
+    <div class="media-body">
+      <h3 id="whitetext" class="mt-0">Employee Tracker</h3>
+      <p id="whitetext">The purpose of the application is to The application is designed for use by a manager to keep
+        track of their business's departments, roles, and employees.
+      </p>
+      <div class="media mt-3">
+
         <div class="media-body">
-          <h3 id="whitetext"class="mt-0">Employee Tracker</h3>
-          <p id="whitetext">The purpose of the application is to The application is designed for use by a manager to keep track of their business's departments, roles, and employees.
-        </p>
-          <div class="media mt-3">
-            
-            <div class="media-body">
-              <h5 class="mt-0">Links:</h5>
-              <br>
-              <a id="whitetext"href="https://github.com/karpx033/Employee-Tracker">GitHub repository</a>
-            </div>
-          </div>
+          <h5 class="mt-0">Links:</h5>
+          <br>
+          <a id="whitetext" href="https://github.com/karpx033/Employee-Tracker">GitHub repository</a>
         </div>
       </div>
-      
-      <div class="media">
-        <div class="media-body">
-          <h3 class="mt-0">Team Profile Generator</h3>
-          The purpose of the application is to This application allows the user to enter employee's contact information into the terminal and a nice looking HTML file will be generated from it.
-          <div class="media mt-3">
-            <a class="mr-3" href="#">
-              
-            </a>
-            <div class="media-body">
-              <h5 class="mt-0">Links:</h5>
-              <a id="whitetext"href="https://watch.screencastify.com/v/TNDu5cBwN4XE2J5KP1sy">Deployed application video</a>
-              <br>
-              <a id="whitetext"href="https://github.com/karpx033/Team-Profile-Generator">GitHub repository</a>
-              
-            </div>
-          </div>
-        </div>
-        <img src="./assets/TeamProfileScreenshot.jpg" id="projectHeadimg" class="mr-3" alt="Team-Profile-Generator Homepage" id="projectHeadimg">
-      </div>
+    </div>
+  </div>
 
-      <div class="media">
-        <img src="./assets/NoteTaker1.jpg" id="projectHeadimg2" class="mr-3" alt="Note Taker Homepage">
-        <br>
+  <div class="media">
+    <div class="media-body">
+      <h3 class="mt-0">Team Profile Generator</h3>
+      The purpose of the application is to This application allows the user to enter employee's contact information into
+      the terminal and a nice looking HTML file will be generated from it.
+      <div class="media mt-3">
+        <a class="mr-3" href="#">
+
+        </a>
+        <div class="media-body">
+          <h5 class="mt-0">Links:</h5>
+          <a id="whitetext" href="https://watch.screencastify.com/v/TNDu5cBwN4XE2J5KP1sy">Deployed application video</a>
+          <br>
+          <a id="whitetext" href="https://github.com/karpx033/Team-Profile-Generator">GitHub repository</a>
+
+        </div>
+      </div>
+    </div>
+    <img src="./assets/TeamProfileScreenshot.jpg" id="projectHeadimg" class="mr-3" alt="Team-Profile-Generator Homepage"
+      id="projectHeadimg">
+  </div>
+
+  <div class="media">
+    <img src="./assets/NoteTaker1.jpg" id="projectHeadimg2" class="mr-3" alt="Note Taker Homepage">
+    <div class="media-body">
+      <h3 id="whitetext" class="mt-0">Note Taker</h3>
+      <p id="whitetext">The purpose of the application is to This app is designed to let the user enter, save, and
+        delete notes via a front end experience. Data is stored in a database.
+      </p>
+      <div class="media mt-3">
         <img src="./assets/Notetaker2.jpg" id="projectHeadimg2" class="mr-3" alt="Note Taker Saved Data Page">
+        
         <div class="media-body">
-          <h3 id="whitetext"class="mt-0">Note Taker</h3>
-          <p id="whitetext">The purpose of the application is to This app is designed to let the user enter, save, and delete notes via a front end experience. Data is stored in a database.
-        </p>
-          <div class="media mt-3">
-            
-            <div class="media-body">
-              <h5 class="mt-0">Links:</h5>
-              <a id="whitetext" href="https://serene-plains-44588.herokuapp.com/">Deployed application</a>
-              <br>
-              <a id="whitetext"href="https://github.com/karpx033/Note-Taker">GitHub repository</a>
-            </div>
-          </div>
+          <h5 class="mt-0">Links:</h5>
+          <a id="whitetext" href="https://serene-plains-44588.herokuapp.com/">Deployed application</a>
+          <br>
+          <a id="whitetext" href="https://github.com/karpx033/Note-Taker">GitHub repository</a>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="media">
-        <img src="./assets/Work Day Scheduler Main Page.jpg" id="projectHeadimg2" class="mr-3" alt="...">
+  <div class="media">
+    <div class="media-body">
+      <h3 class="mt-0">Tech Blog</h3>
+      The purpose of the application is to The purpose of this app is to serve as an updatable blog for users to submit, edit, and comment on posts with login functionality.
+
+      <div class="media mt-3">
+        <a class="mr-3" href="#">
+
+        </a>
         <div class="media-body">
-          <h3 id="whitetext"class="mt-0">Work Day Scheduler</h3>
-          <p id="whitetext">My favorite homework assignment so far. The purpose of the application is to allow the user to enter to do lists items in hourly time slots and save them while dynamically alterting the user what time of the day it is. Primarily uses javascript. Framework built from bootstrap. Uses the momement.js library to pull time and date information and saves it in local storage.
-        </p>
-          <div class="media mt-3">
-            
-            <div class="media-body">
-              <h5 class="mt-0">Links:</h5>
-              <a id="whitetext"href="https://karpx033.github.io/Day_Planner_Take_2/">Deployed application</a>
-              <br>
-              <a id="whitetext"href="https://github.com/karpx033/Day_Planner_Take_2">GitHub repository</a>
-            </div>
-          </div>
+          <h5 class="mt-0">Links:</h5>
+          <a id="whitetext" href="https://desolate-dawn-08072.herokuapp.com/">Deployed live application</a>
+          <br>
+          <a id="whitetext" href="https://github.com/karpx033/Tech-Blog">GitHub repository</a>
+
         </div>
       </div>
-      <div class="media">
-        <div id="whitetext"class="media-body">
-          <h3 id="whitetext"class="mt-0">Password Generator</h3>
-          My first confidently made javascript based application. This application prompts the user with criteria settings to be used to make up an automatically generated password. Includes logic to remove non-numeric and outside range characters entered into the first number selection prompt. Uses primarily javascript.
-      
-          <div class="media mt-3">
-            <a class="mr-3" href="#">
-              
-            </a>
-            <div class="media-body" id="skinnyBlurb">
-              <h5 class="mt-0">Links:</h5>
-              <a id="whitetext"href="https://karpx033.github.io/Homework3/">Deployed application</a>
-              <br>
-              <a id="whitetext"href="https://github.com/karpx033/Homework3">GitHub repository</a>
-            </div>
-          </div>
+    </div>
+    <img src="./assets/TechBlog.jpg" id="projectHeadimg" class="mr-3" alt="Tech Blog Homepage">
+  </div>
+
+  <div class="media">
+    <img src="./assets/Work Day Scheduler Main Page.jpg" id="projectHeadimg2" class="mr-3" alt="...">
+    <div class="media-body">
+      <h3 id="whitetext" class="mt-0">Work Day Scheduler</h3>
+      <p id="whitetext">My favorite homework assignment so far. The purpose of the application is to allow the user to
+        enter to do lists items in hourly time slots and save them while dynamically alterting the user what time of the
+        day it is. Primarily uses javascript. Framework built from bootstrap. Uses the momement.js library to pull time
+        and date information and saves it in local storage.
+      </p>
+      <div class="media mt-3">
+
+        <div class="media-body">
+          <h5 class="mt-0">Links:</h5>
+          <a id="whitetext" href="https://karpx033.github.io/Day_Planner_Take_2/">Deployed application</a>
+          <br>
+          <a id="whitetext" href="https://github.com/karpx033/Day_Planner_Take_2">GitHub repository</a>
         </div>
-    
       </div>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="1000" data-pause="false">
-                        <img src="./assets/Password Generator Main Page.jpg"  class="d-block w-60" alt="...">
-                      </div>
-                  <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
-                      <img src="./assets/PG Prompt 1.jpg"  class="d-block w-60" alt="...">
-                  </div>
-                  <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
-                    <img src="./assets/PG Prompt 2.jpg"  class="d-block w-60" alt="...">
-                  </div>
-                  <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
-                    <img src="./assets/PG Prompt 3.jpg"  class="d-block w-60" alt="...">
-                  </div>
-                  <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
-                    <img src="./assets/PG Prompt 4.jpg"  class="d-block w-60" alt="...">
-                  </div>
-                  <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
-                    <img src="./assets/PG Prompt 5.jpg"  class="d-block w-60" alt="...">
-                  </div>
-                  <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
-                    <img src="./assets/PG Prompt 6.jpg"  class="d-block w-60" alt="...">
-                  </div>
-                  <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
-                    <img src="./assets/PG Prompt 7.jpg"  class="d-block w-60" alt="...">
-                  </div>
-                </div>
-              </div>
-     
-    
-    <script type="text/javascript" src="./assets/script.js"></script>
+    </div>
+  </div>
+
+
+  <div class="media">
+    <div id="whitetext" class="media-body">
+      <h3 id="whitetext" class="mt-0">Password Generator</h3>
+      My first confidently made javascript based application. This application prompts the user with criteria settings
+      to be used to make up an automatically generated password. Includes logic to remove non-numeric and outside range
+      characters entered into the first number selection prompt. Uses primarily javascript.
+
+      <div class="media mt-3">
+        <a class="mr-3" href="#">
+
+        </a>
+        <div class="media-body" id="skinnyBlurb">
+          <h5 class="mt-0">Links:</h5>
+          <a id="whitetext" href="https://karpx033.github.io/Homework3/">Deployed application</a>
+          <br>
+          <a id="whitetext" href="https://github.com/karpx033/Homework3">GitHub repository</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="1000" data-pause="false">
+        <img src="./assets/Password Generator Main Page.jpg" class="d-block w-60" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
+        <img src="./assets/PG Prompt 1.jpg" class="d-block w-60" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
+        <img src="./assets/PG Prompt 2.jpg" class="d-block w-60" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
+        <img src="./assets/PG Prompt 3.jpg" class="d-block w-60" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
+        <img src="./assets/PG Prompt 4.jpg" class="d-block w-60" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
+        <img src="./assets/PG Prompt 5.jpg" class="d-block w-60" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
+        <img src="./assets/PG Prompt 6.jpg" class="d-block w-60" alt="...">
+      </div>
+      <div class="carousel-item" data-interval="1000" data-pause="false" data-ride="carousel">
+        <img src="./assets/PG Prompt 7.jpg" class="d-block w-60" alt="...">
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="./assets/script.js"></script>
 </body>
+
 </html>
